@@ -16,6 +16,18 @@ git push
 ```
 
 ```bash
+# 셋팅 된 이후에는 아래 명령어 통해서 원격 저장소로 바로 보낼 수 있음
+
+git clone<인터넷 주소> #로컬에 경로로 복사
+
+git pull # 원격저장소에 내경로로
+git add .
+git commit -m "메세지"
+git push
+
+```
+
+```bash
 #리덱트 프로젝트는 패키지 설치 후 사용 가능
 npm install
 npm run start
